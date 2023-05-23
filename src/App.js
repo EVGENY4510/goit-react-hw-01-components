@@ -7,7 +7,6 @@ import data from './data.json';
 import friends from './friends.json';
 import transactions from './transactions.json';
 import css from 'App.module.css';
-// import { useLayoutEffect } from 'react';
 
 export const App = () => {
   return (
@@ -37,15 +36,3 @@ export const App = () => {
     </ul>
   );
 };
-{
-  /* <ProfileCard
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-      <Statistics title="Upload stats" stats={data} />
-      <FriendList friends={friends} />
-      <TransactionHistory items={transactions} /> */
-}
