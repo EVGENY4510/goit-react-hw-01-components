@@ -1,0 +1,57 @@
+.description {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.profile {
+  width: 300px;
+  border: 1px solid rgb(160, 156, 156);
+  border-radius: 10px;
+  box-shadow: 6px 4px 15px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.avatar {
+  width: 200px;
+}
+.tag {
+  font-family: 'Droid Sans';
+  color: #cfc6c6;
+  margin: 8px 0px 0px 0px;
+}
+.location {
+  font-family: 'Droid Sans';
+  color: #cfc6c6;
+  margin: 8px 0px 0px 0px;
+}
+.name {
+  font-family: 'Droid Sans';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 8px 0px 0px 0px;
+}
+.label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+.quantity {
+  font-weight: 500;
+  color: red;
+}
+.stats {
+  padding: 0px;
+  display: flex;
+}
+.liProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  width: 133px;
+
+  border: 1px solid rgb(165, 161, 161);
+  background-color: rgb(237, 232, 232);
+}
